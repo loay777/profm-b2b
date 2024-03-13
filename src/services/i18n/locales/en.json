@@ -1,7 +1,92 @@
 {
-    "homepage": "Home Page",
+    "homepage": "Home",
     "About": "About us",
     "Services": "Services",
-    "language":"language"
-
+    "Management": "Management",
+    "Sucess_Partners": "Success Partners",
+    "Contact_us": "Contact us",
+    "Language":"Arabic",
+    "log_in":"Log in",
+    "hero":{
+      "title":"Unparalleled Efficiency In Facilities Management With Integrated Solutions",
+      "description":"Since its inception, the company has diversified its business in facility management and contracting. The management of the company has been keen to establish professionalism throughout our system"
+    },
+    "stats":{
+      "Clients":"Clients",
+      "Ratings":"Ratings",
+      "Transaction":"Transactions"
+    },
+    "services":{
+      "section-title":"Our Services",
+      
+      "Cleaning Services":{
+          "title": "Cleaning Services",
+          "description": "Specialized cleaning for facilities, homes, schools, healthcare & businesses. Expert team, advanced equipment."
+        },
+      "Housekeeping Services":{
+        "title": "Housekeeping Services",
+        "description": "Our Company provides professional housekeeping services to all market segments."
+      },
+      "Hospitality services":{
+        "title": "Hospitality services",
+        "description": "Qualified staff across Saudi Arabia, a hallmark of our Arabian Hospitality Program."
+      },
+      "Comprehensive domestic maintenance":{
+        "title": "Comprehensive domestic maintenance",
+        "description": "Comprehensive maintenance solutions for homes, villas and residential complexes, focusing on prevention and repair."
+      },
+      "Maintenance & operation services":{
+        "title": "Maintenance & operation services",
+        "description": "Highest security & safety drive efficient, professional facility maintenance across all programs."
+      },
+      "Restoration & renovation services":{
+        "title": "Restoration & renovation services",
+        "description": "Comprehensive support for all sectors and projects of the company, which enhances customer satisfaction and meets their needs."
+      },
+      "Nutrition & Subsistence Services":{
+        "title": "Nutrition & Subsistence Services",
+        "description": "We fuel success across KSA industries with professional kitchens, diverse menus, and ongoing staff development."
+      },
+      "Pest Control Services":{
+        "title": "Pest Control Services",
+        "description": "Certified chemicals, advanced equipment, expert technicians - we combat all types of pests that threaten your food storage."
+      },
+      "Agricultural services":{
+        "title": "Agricultural services",
+        "description": "Distinctive garden service and maintenance with professional standards and advanced technology"
+      }
+    },
+    "management":{
+      "section-title":"Management",
+      "manager1-name":"Omar Ahmed",
+      "manager1-position":"Deputy CEO",
+      "manager1-quote":"\"Empower your dreams. Explore possibilities and expertise at our hub facility\"",
+      "manager2-name":"Assem Muhammad",
+      "manager2-position":"CEO",
+      "manager2-quote":"\" Explore our site for seamless facility solutions tailored to your needs\"",
+      "manager3-name":"Fahed Saleh",
+      "manager3-position":"IT Manager",
+      "manager3-quote":"\"Where elegance meets efficiency. Explore our site, discover top-notch facility management\""
+    },
+    "success partners": "Success Partners",
+    "contact":{
+      "Contact us": "Contact us",
+      "call for action1": "\"Your input is important! Contact us",
+      "call for action2": "at for any suggestions, inquiries or assistance you need, our team is ready to help\"",
+      "First Name": "First Name",
+      "Last Name": "Last Name",
+      "Email": "Email",
+      "Phone Number": "Phone Number",
+      "Choose Topic": "Choose Topic",
+      "Select One": "Select One...",
+      "Topic 1": "Topic 1",
+      "Topic 2": "Topic 2",
+      "Topic 3": "Topic 3",
+      "Message": "Message",
+      "I accept the terms": "I accept the terms",
+      "Submit": "Submit"  
+    },   
+  "copyright": "Copyright © 2024 ProFM. All rights reserved"
+    
+  
 }

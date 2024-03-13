@@ -1,23 +1,29 @@
-import Footer from "../components/ui/footer";
-import Navbar from "../components/ui/navbar";
+
+
 import Hero from "../pages/Hero";
-import Home from "../pages/home";
+import { Partners } from "../pages/Parteners.jsx";
+import Stats from "../components/ui/stats.jsx";
+import Services from "../pages/OurServices.jsx";
+import Management from "../pages/Management.jsx";
+import ContactUs from "../pages/ContactUs.jsx";
+import Navbar from "../components/ui/navbar";
+import Footer from "../components/ui/footer.jsx";
+
+
+
 
 export default function Root() {
+ 
     return (
-      <>
-         <div className='relative z-0 bg-primary'>
-         <Navbar />
-          <Hero/>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-         
-        <Home /> 
-        </div>
+      <div className="bg-primary">
         
-       
-          
+        <Hero/>
+        <Stats/>
+        <Services/>
+        <Management />
+        <Partners />
+        <ContactUs/>
         
       </div>
-      </>
     );
   }

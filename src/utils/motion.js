@@ -50,7 +50,7 @@ export const textVariant = (delay) => {
           type: "tween",
           delay: delay,
           duration: duration,
-          ease: "easeOut",
+          ease: 'easeIn'
         },
       },
     };

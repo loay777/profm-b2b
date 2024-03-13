@@ -10,9 +10,12 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
+ 
 }
-
+@font-face {
+  font-family: 'DG-Baysan-Regular';
+  src: url('./fonts/DG-Baysan-Regular.ttf');
+}
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
