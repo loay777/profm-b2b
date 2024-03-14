@@ -15,18 +15,7 @@ import { zoomIn } from "./utils/motion.js";
 
 function App() {
   const [t, i18n] = useTranslation();
-  // const router = createBrowserRouter([
-  //   {
-  //     path: '/',
-  //     element: <Root />,
-  //     errorElement: <ErrorPage />,
-  //   },
-  //   {
-  //     path: "/cleaningservices",
-  //     element: <CleaningServicesPage />,
-  //     errorElement:<ErrorPage/>
-  //   },
-  // ]);
+  
   useEffect(() => {
     document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
   }, [i18n.language]);
@@ -38,7 +27,6 @@ function App() {
         <motion.div variants={zoomIn(0,1)} className={"z-[51] fixed right-9 bottom-9"}>
           <FloatingActionBtn />
         </motion.div>
-        {/* <RouterProvider router={router} /> */}
         <Root />
         <div className=" bottom-0 w-full"><Footer /></div>
       </MantineProvider>
