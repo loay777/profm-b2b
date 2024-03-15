@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/profm-b2b/cleaningservices",
+    path: "/cleaningservices",
     element: <CleaningServicesPage />,
     errorElement:<ErrorPage/>
   },
