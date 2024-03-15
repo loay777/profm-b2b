@@ -20,7 +20,7 @@ function ContactUs() {
 
       <img
         className={` max-w-[830px]  absolute z-[0] ${i18n.language =="ar"?"transform -scale-x-100 right-0":"left-0"} `}
-        src="./assets/img/contact.png"
+        src="./contact.png"
         alt="contact us background"
       />
 
@@ -38,7 +38,7 @@ function ContactUs() {
             <div className={i18n.language== 'ar'?"transform -scale-x-100":""}>
             <motion.img 
               variants={fadeIn("right", "spring", 0.7, 1.5)} 
-              src="./assets/img/frame-9.png" 
+              src="./frame-9.png" 
               alt="arrow right" 
               className={`w-[60%] mb-3 `} 
             />
@@ -78,7 +78,7 @@ function ContactUs() {
               </label>
               <div className="relative w-full">
                 <img
-                  src="./src/assets/img/person-icon.png"
+                  src="./person-icon.png"
                   alt="Person Icon"
                   className={`h-5 w-5 absolute ${ i18n.language == "ar"
                   ?"right-3":"left-3"} top-2`}
@@ -96,7 +96,7 @@ function ContactUs() {
               </label>
               <div className="relative w-full">
                 <img
-                  src="./src/assets/img/person-icon.png"
+                  src="./person-icon.png"
                   alt="Person Icon"
                   className={`h-5 w-5 absolute ${ i18n.language == "ar"
                   ?"right-3":"left-3"} top-2`}
@@ -116,7 +116,7 @@ function ContactUs() {
               </label>
               <div className="relative">
                 <img
-                  src="./src/assets/img/email-icon.png"
+                  src="./email-icon.png"
                   alt="Email Icon"
                   className={`h-5 w-5 absolute ${ i18n.language == "ar"
                   ?"right-3":"left-3"} top-2`}
@@ -134,7 +134,7 @@ function ContactUs() {
               </label>
               <div className="relative">
                 <img
-                  src="./assets/img/phone-icon.png"
+                  src="./phone-icon.png"
                   alt="Phone Icon"
                   className={`h-5 w-5 absolute ${ i18n.language == "ar"
                   ?"right-3":"left-3"} top-2`}
