@@ -89,7 +89,7 @@ const Hero = () => {
           <div className=" relative w-[632px] h-[128px] mr-[-2.00px]"><img 
               className= {`absolute w-[3px] h-[115px] top-[7px] ${i18n.language == "ar"? 'rigth-0':'left-0'}`}
               alt="Line"
-              src="/src/assets/img/line-3.svg"
+              src="./line-3.svg"
             />
             <p className={`absolute w-[606px] top-0 ${i18n.language == "ar"? 'right-[24px]':'left-[24px]'} ${i18n.language == "ar"?"font-baysan font-light":"[font-family:'DG_Baysan-Light',Helvetica] font-light"} text-gray-dark text-[24px] tracking-[0] leading-[32px]`}>
               {t("hero.description")}
