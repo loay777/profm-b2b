@@ -9,7 +9,7 @@ function CleaningServicesPage() {
   return (
     <div className=' h-full w-full'>
         <Navbar/>
-        <img src="/src/assets/img/specialized cleaning service background.png" alt="" className='' />
+        <img src="./specialized cleaning service background.png" alt="" className='' />
         <div className={`px-[108px] flex-col justify-center itmes-center w-[100%] h-[55vh]  bg-primary`}>
           <div className='px-10'>
             <MyStyledText language={i18n.language} textType={'h1'} text={"Specialized Cleaning Services"} textStyle={' text-center text-[38px] text-secondary py-4'}/>
