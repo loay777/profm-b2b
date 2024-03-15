@@ -1,15 +1,11 @@
 import { useState, useEffect } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
-import ErrorPage from "./pages/ErrorPage.jsx";
-import About from "./pages/About";
 import "@mantine/core/styles.css";
 import { useTranslation } from "react-i18next";
 import Navbar from "./components/ui/navbar";
 import { MantineProvider } from "@mantine/core";
 import Footer from "./components/ui/footer.jsx";
 import { motion } from "framer-motion";
-import  CleaningServicesPage  from "./pages/services/CleaningServicesPage.jsx";
 import FloatingActionBtn from "./components/ui/floating-action-button.jsx";
 import { zoomIn } from "./utils/motion.js";
 
