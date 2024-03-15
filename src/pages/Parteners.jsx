@@ -50,7 +50,7 @@ export const Partners = () => {
          <Slide autoplay={true} canSwipe={true} easing="ease" infinite={true}  slidesToShow={4}  duration={1500} responsive={responsiveSettings}> 
             {partners.map((partner, index) => (
               <Tilt key={index} className='flex justify-center items-center  lg:w-80 lg:h-80 bg-white shadow-xl p-4 m-8 rounded-lg '>
-                <img className='h-auto w-auto inline max-w-full max-h-full' src={`/src/assets/partners/${partner.imageSrc}`} alt={partner.alter} />
+                <img className='h-auto w-auto inline max-w-full max-h-full' src={`./src/assets/partners/${partner.imageSrc}`} alt={partner.alter} />
               </Tilt>
             ))}
           </Slide>  
