@@ -53,7 +53,7 @@ function Footer() {
               href={`#${contact.link}`}
             >
               <img
-                src={`/src/assets/img/${contact.icon}`}
+                src={`./${contact.icon}`}
                 alt={contact.alter}
                 className={`w-6 h-6 ${i18n.language=="ar"? "ml-2" : "mr-2"}`}
               />
