@@ -35,7 +35,7 @@ function FloatingActionBtn() {
         // onHoverEnd={onHoverEnd}
         onClick={onClick}
       >
-        <img src="/src/assets/img/fab-main-icon.svg" alt="icon" />
+        <img src="./fab-main-icon.svg" alt="icon" />
       </motion.button>
       <motion.button
         id="whatsapp button"
@@ -46,7 +46,7 @@ function FloatingActionBtn() {
         className={` z-5 bg-green-500 p-3 rounded-full absolute left-[12px]`}
       >
         <img
-          src="/src/assets/img/whatsapp.png"
+          src="./whatsapp.png"
           alt="messanger"
           className="w-7 h-7"
         />
@@ -60,7 +60,7 @@ function FloatingActionBtn() {
         className={` z-5 bg-gradient-to-b from-[#00B2FF] to-[#006AFF]  p-3 rounded-full absolute left-[12px]`}
       >
         <img
-          src="/src/assets/img/messanger.png"
+          src="./messanger.png"
           alt="messanger"
           className="w-7 h-7"
         />
