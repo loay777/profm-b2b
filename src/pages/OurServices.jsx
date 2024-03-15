@@ -34,7 +34,7 @@ const ServiceCard = ({ index, title, description, icon, color, language,link }) 
           } w-full h-full rounded-[20px] py-5 px-8 min-h-[280px] flex justify-evenly items-start flex-col`}
         >
           <img
-            src={`/src/assets/img/${icon}`}
+            src={`./src/assets/img/${icon}`}
             alt="web-development"
             className="w-16 h-16 object-contain"
           />
