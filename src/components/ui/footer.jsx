@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className="bg-gradient-to-l from-[#57AAA9] to-[#356A7E] w-full h-400 h-[400px]  px-12 py-20 z-[500]">
       <div className="w-full flex justify-between items-center "> {/* logo / navigation / social media links */}
-        <img src={"/src/assets/img/3-1-3.png"} alt="ProFM logo" />
+        <img src={"./3-1-3.png"} alt="ProFM logo" />
          <div className="flex flex-row after:mx-20"> {/* navigationLinks */}
           {navigationLinks.map((nav) => (
             <a key={nav.id}
@@ -32,7 +32,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                src={`/src/assets/img/${media.icon}`}
+                src={`./${media.icon}`}
                 alt={media.alter}
                 className="w-6 h-6 mx-2"
               />
