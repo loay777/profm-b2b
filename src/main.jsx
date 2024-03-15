@@ -12,12 +12,12 @@ import  CleaningServicesPage  from "./pages/services/CleaningServicesPage.jsx";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/profm-b2b/',
     element: <App />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/cleaningservices",
+    path: "/profm-b2b/cleaningservices",
     element: <CleaningServicesPage />,
     errorElement:<ErrorPage/>
   },
