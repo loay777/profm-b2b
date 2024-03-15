@@ -43,7 +43,7 @@ const Navbar = () => {
           i18n.language == "ar" ? "pr-[108px]" : "pl-[108px]"
         } w-full flex justify-between px-8 items-center max-w-full mx-auto cursor-pointer`}
       >
-      <Link to={'/'}>
+      <Link to={'/profm-b2b/'}>
        <div
           className="flex items-center gap-2"
           onClick={() => {
