@@ -29,7 +29,7 @@ function Management() {
           <motion.div variants={fadeIn("left","spring", 0.5,1.5)} className="flex flex-col items-center justify-center w-[80%]">
             <img
               className=" w-80 lg:w-[100%]"
-              src="src/assets/img/management-card.svg"
+              src="./src/assets/img/management-card.svg"
               alt="Management Image"
             />
             <MyStyledText textType={'h2'} textStyle={`flex justify-center items-center text-primary md:text-[37px] sm:text-[30px] xs:text-[20px] text-[10px] font-bold m-0`} language={i18n.language} text={t('management.manager1-name')}/>
@@ -40,7 +40,7 @@ function Management() {
           <motion.div variants={fadeIn("up","spring", 1.5,1.5)} className="flex flex-col items-center justify-center w-[80%] mt-14">
             <img
               className=" w-80 lg:w-[100%]"
-              src="src/assets/img/manager2.png"
+              src="./src/assets/img/manager2.png"
               alt="Management Image"
             />
             <MyStyledText textType={'h2'} textStyle={`flex justify-center items-center text-primary md:text-[37px] sm:text-[30px] xs:text-[20px] text-[10px] font-bold m-0`} language={i18n.language} text={t('management.manager2-name')}/>
@@ -51,7 +51,7 @@ function Management() {
           <motion.div variants={fadeIn("right","spring", 1,1.5)} className="flex flex-col items-center justify-center w-[80%]">
             <img
               className=" w-80 lg:w-[100%]"
-              src="src/assets/img/manager3.svg"
+              src="./src/assets/img/manager3.svg"
               alt="Management Image"
             />
             <MyStyledText textType={'h2'} textStyle={`flex justify-center items-center text-primary md:text-[37px] sm:text-[30px] xs:text-[20px] text-[10px] font-bold m-0`} language={i18n.language} text={t('management.manager3-name')}/>
