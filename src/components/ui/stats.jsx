@@ -15,31 +15,31 @@ function Stats() {
             <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
               +{counterOn&&<CountUp start={0} duration={4} end={20}/>}K <br />{" "}
               <span className=" flex gap-1 justify-end items-center  items-center[font-family:'DG_Baysan-Light',Helvetica] font-light text-[grey] text-[32px]  leading-[normal] ">
-                <img alt="group" src="/src/assets/img/group.svg"/>
+                <img alt="group" src="./group.svg"/>
                 {t("stats.Clients")}
               </span>{" "}
             </ScrollTrigger>
           
         </div>
-        <img alt="Line" src="/src/assets/img/line-2.svg" />
+        <img alt="Line" src="./line-2.svg" />
         <div className=" [font-family:'DG_Baysan-Semibold',Helvetica] font-normal text-secondary text-[48px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
           
             <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
               +{counterOn&&<CountUp start={0} duration={4} end={15}/>}K <br />{" "}
               <span className=" gap-1 flex  items-center[font-family:'DG_Baysan-Light',Helvetica] font-light text-[grey] text-[32px]  leading-[normal] ">
-                <img alt="star" src="/src/assets/img/star.svg" />
+                <img alt="star" src="./star.svg" />
                 {t("stats.Ratings")}
               </span>{" "}
             </ScrollTrigger>
         
         </div>
-        <img alt="Line" src="/src/assets/img/line-2.svg" />
+        <img alt="Line" src="./line-2.svg" />
         <div className="[font-family:'DG_Baysan-Semibold',Helvetica] font-normal text-secondary text-[48px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
          
             <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
               +{counterOn&&<CountUp start={0} duration={4} end={90}/>}K <br />{" "}
               <span className=" gap-1 flex  items-center[font-family:'DG_Baysan-Light',Helvetica] font-light text-[grey] text-[32px]  leading-[normal] ">
-                <img alt="check" src="/src/assets/img/check.svg" />
+                <img alt="check" src="./check.svg" />
                 {t("stats.Transaction")}
               </span>{" "}
             </ScrollTrigger>
